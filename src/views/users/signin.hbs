@@ -1,1 +1,27 @@
-<h1>Ingresar</h1>
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card mt-4 text-center">
+            <div class="card-heder">
+                <h1>Inicia Sección</h1>
+            </div>
+            <img src="/img/logo.jpg" class="rounded-cicle mx-auto logo" alt="logo">
+            <div class="card-body">
+                <form action="/users/signin" method="POST">
+                    <div class="from-group">
+                        <input type="email" class="form-control" name="email" placeholder="Email">
+                    </div>
+                    <br>
+                    <div class="from-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password">
+                    </div>
+                    <br>
+                    <div class="from-group">
+                        <button class="btn btn-primary btn-block" type="submit">
+                            Ingresar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
